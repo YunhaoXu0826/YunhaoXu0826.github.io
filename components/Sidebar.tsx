@@ -57,14 +57,10 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
           {/* Profile Photo */}
           <div className="mb-6 flex justify-center">
             <div className="w-40 h-40 bg-gray-300 rounded-full overflow-hidden border-4 border-white shadow-lg">
-              <Image
-                src="/profile.jpg"
-                alt="Yunhao (Henry) Xu"
-                width={160}
-                height={160}
-                className="w-full h-full object-cover"
-                priority
-              />
+              {/* Placeholder - Replace with your photo by adding profile.jpg to public folder */}
+              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-200 text-blue-800 text-4xl font-bold">
+                YX
+              </div>
             </div>
           </div>
 
