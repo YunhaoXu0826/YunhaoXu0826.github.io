@@ -34,7 +34,7 @@ export default function About() {
               <span className="text-sm text-gray-600">Aug 2024 - May 2026</span>
             </div>
             <p className="text-red-700 font-medium mb-2">
-              M.S. in Materials Science and Engineering
+              M.S. in Materials Science
             </p>
             <p className="text-gray-700 mb-2">GPA: 3.9/4.0</p>
             <p className="text-sm text-gray-600">

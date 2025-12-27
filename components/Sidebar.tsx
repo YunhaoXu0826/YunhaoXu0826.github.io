@@ -74,7 +74,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
               Yunhao (Henry) Xu
             </h1>
             <p className="text-sm text-gray-600 leading-relaxed">
-              M.S. in Materials Science & Engineering @ Carnegie Mellon University
+              M.S. in Materials Science @ Carnegie Mellon University
             </p>
           </div>
 

@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Yunhao (Henry) Xu | Materials Science Researcher & Engineer",
-  description: "Portfolio of Yunhao (Henry) Xu - M.S. in Materials Science & Engineering at Carnegie Mellon University",
+  description: "Portfolio of Yunhao (Henry) Xu - M.S. in Materials Science at Carnegie Mellon University",
   icons: {
     icon: '/icon.jpg',
     shortcut: '/icon.jpg',
