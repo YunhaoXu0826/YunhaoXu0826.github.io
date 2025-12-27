@@ -5,6 +5,7 @@ import Sidebar from '@/components/Sidebar';
 import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Research from '@/components/Research';
+import Presentations from '@/components/Presentations';
 import Skills from '@/components/Skills';
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'research', 'skills'];
+      const sections = ['about', 'experience', 'research', 'presentations', 'skills'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -48,6 +49,7 @@ export default function Home() {
           <About />
           <Experience />
           <Research />
+          <Presentations />
           <Skills />
           
           <footer className="mt-12 md:mt-16 pt-6 md:pt-8 border-t border-gray-300 text-center text-xs md:text-sm text-gray-600">

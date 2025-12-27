@@ -16,6 +16,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
     { id: 'about', label: 'About' },
     { id: 'experience', label: 'Experience' },
     { id: 'research', label: 'Research & Projects' },
+    { id: 'presentations', label: 'Presentations' },
     { id: 'skills', label: 'Skills' },
   ];
 
@@ -126,6 +127,18 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
               ))}
             </ul>
           </nav>
+
+          {/* Resume Download */}
+          <div className="mt-6">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center px-4 py-3 bg-red-700 text-white font-semibold rounded-md hover:bg-red-800 transition-colors shadow-md"
+            >
+              📄 View Resume
+            </a>
+          </div>
 
           {/* Contact Info */}
           <div className="mt-8 pt-8 border-t border-gray-300 text-xs text-gray-600">
