@@ -1,40 +1,50 @@
-import { Code, Microscope, Award } from 'lucide-react';
+import { Code, Microscope, Wrench, FlaskConical } from 'lucide-react';
 
 export default function Skills() {
   const skillCategories = [
     {
-      title: 'Programming & Data',
-      icon: <Code size={24} className="text-red-700" />,
+      title: 'Engineering & Manufacturing',
+      icon: <Wrench size={24} className="text-red-700" />,
       skills: [
-        'Python (Pandas, NumPy, Matplotlib)',
-        'SQL',
-        'Tableau',
-        'JMP',
-        'MATLAB',
+        'CATIA',
+        'AutoCAD',
+        'SolidWorks',
         'ANSYS',
-        'CAD',
-        'Finite Element Analysis (FEA)',
-      ],
-    },
-    {
-      title: 'Materials Science',
-      icon: <Microscope size={24} className="text-red-700" />,
-      skills: [
-        'Polymer Synthesis',
-        'Characterization (TEM, SEM, DSC)',
+        '3D Modeling',
         '3D Printing',
         'Failure Analysis',
-        'Rheology',
-        'Wet Lab Experience',
+        'DOE',
       ],
     },
     {
-      title: 'Certifications',
-      icon: <Award size={24} className="text-red-700" />,
+      title: 'Data Analysis & Programming',
+      icon: <Code size={24} className="text-red-700" />,
       skills: [
-        'Six Sigma White Belt',
-        'Design of Experiments (JMP)',
-        'NVIDIA Data Science Workflows',
+        'Python',
+        'SQL',
+        'MATLAB',
+        'JMP',
+        'Tableau',
+        'Advanced Excel',
+      ],
+    },
+    {
+      title: 'Materials Characterization & Testing',
+      icon: <Microscope size={24} className="text-red-700" />,
+      skills: [
+        'TEM',
+        'SEM',
+        'DSC',
+        'Tensile Testing',
+        'Rotational Viscometer',
+      ],
+    },
+    {
+      title: 'Laboratory',
+      icon: <FlaskConical size={24} className="text-red-700" />,
+      skills: [
+        'Wet Lab',
+        'Polymer Synthesis',
       ],
     },
   ];
@@ -45,7 +55,7 @@ export default function Skills() {
         Technical Skills
       </h2>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+      <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
         {skillCategories.map((category, index) => (
           <div
             key={index}
@@ -74,5 +84,3 @@ export default function Skills() {
     </section>
   );
 }
-
-

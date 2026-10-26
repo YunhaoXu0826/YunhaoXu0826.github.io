@@ -9,9 +9,10 @@ export default function Research() {
       description:
         'Developing machine learning models to predict mechanical properties of polymer-grafted nanoparticles from molecular structure parameters.',
       highlights: [
-        'Developed 8 regression models (XGBoost, Random Forest, Gradient Boosting, etc.) to predict Young\'s modulus from molecular structure',
-        'Implemented hyperparameter optimization and cross-validation techniques to improve model accuracy',
-        'Created automated scripts for model benchmarking and publication-ready visualization',
+        'Developed 8 regression models to predict Young\'s modulus of polymer-grafted nanoparticles from molecular structure parameters (degree of polymerization, grafting density)',
+        'Implemented hyperparameter optimization using leave-one-out cross-validation with MAPE as the objective function, training on a PMMA dataset (80/20 train-test split)',
+        'Demonstrated the models\' capability to learn structure-property relationships across polymer systems (PMMA for training, PS for validation)',
+        'Created an analysis framework with automated scripts for model training, benchmarking, cross-validation, and publication-ready visualization',
       ],
       tags: ['Machine Learning', 'Python', 'XGBoost', 'Polymers', 'Materials Modeling'],
     },
@@ -22,9 +23,10 @@ export default function Research() {
       description:
         'Investigating the correlation between hyperuniformity and self-healing properties in hybrid nanocomposite materials.',
       highlights: [
-        'Optimized thin-film coating processes (spin-coating) and performed TEM analysis',
-        'Quantified hyperuniformity using Python/MATLAB algorithms',
-        'Manuscript in preparation',
+        'Optimized thin-film coating processes (SiO\u2082\u2013PMMA self-healing films via spin-coating with PAA sacrificial layers)',
+        'Performed TEM analysis and quantified hyperuniformity in microstructural patterns using Python, ImageJ, and MATLAB',
+        'Designed workflows to track experimental parameters and identified the correlation between coating conditions and healing performance',
+        'Collaborated with advisors and cross-disciplinary peers to refine methodologies; co-authored paper published in Macromolecules (2026, 59(19), 10748\u201310759)',
       ],
       tags: ['TEM', 'Python', 'MATLAB', 'Thin Films', 'Nanocomposites'],
     },
@@ -35,9 +37,11 @@ export default function Research() {
       description:
         'Synthesis and characterization of waterborne acrylic pressure-sensitive adhesives for sustainable applications.',
       highlights: [
-        'Synthesized waterborne acrylic PSAs via suspension polymerization',
-        'Characterized properties including peel strength, shear adhesion, and tack',
-        'Visualized structure-property relationships using Tableau',
+        'Synthesized waterborne acrylic PSAs with varied structures using suspension polymerization',
+        'Characterized solid content (oven method), tack (rolling ball), shear adhesion, 180\u00b0 peel strength (tensile tester), and viscosity (rotational viscometer)',
+        'Established correlations between formulations and performance metrics, accelerating identification of optimal compositions',
+        'Designed Tableau visualizations to present structure-property relationships, enabling design improvements',
+        'Optimized formulations by tuning functional monomer/initiator types, soft-hard monomer ratios, Tg, and particle structures',
       ],
       tags: ['Polymer Synthesis', 'Characterization', 'Tableau', 'Adhesives'],
     },

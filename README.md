@@ -129,7 +129,7 @@ This project is created for personal portfolio use.
 
 ## 📧 Contact
 
-- **Email:** yunhaox@andrew.cmu.edu
+- **Email:** xyh18301778938@gmail.com
 - **Phone:** 412-450-2179
 - **LinkedIn:** [yunhao-henry-xu](https://www.linkedin.com/in/yunhao-henry-xu)
 

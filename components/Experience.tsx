@@ -3,24 +3,31 @@ import { Briefcase, MapPin, Calendar } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      role: 'Intern',
-      company: 'Ocean Reviver',
-      location: 'Irvine, CA',
-      period: 'Jun 2025 - Aug 2025',
+      role: 'Process / Packaging Engineer',
+      company: 'Fuyao Glass America Inc.',
+      location: 'Dayton, OH',
+      period: 'Jul 2026 - Present',
       responsibilities: [
-        'Analyzed Direct Lithium Extraction (DLE) technologies and datasets using Python/Excel to evaluate Li selectivity and recovery rates',
-        'Worked on quantum computing fundamentals (qubits, gates) and optimized quantum models using NumPy/Matplotlib',
+        'Improved automotive glass assembly line production attainment from ~65% to 85% through shift-level production data analysis, cycle-time and downtime review, and root-cause investigations of underperforming shifts',
+        'Planned and executed DOE-based process validation for bonding, soldering, chemical application, and curing processes, including temperature mapping, pull testing, and process-parameter comparison to establish acceptable operating conditions',
+        'Introduced and optimized new tooling and process aids using CATIA and 3D printing, validating prototypes on the production floor and implementing design changes to address quality and handling issues',
+        'Developed and updated SOPs and Work Instructions for automotive glass manufacturing processes, translating engineering and quality requirements into standardized shop-floor procedures and incorporating operator feedback',
+        'Led packaging development for Tesla and BMW automotive glass programs, translating product and logistics requirements into CATIA-based packaging designs and coordinating cross-functional design reviews through production release',
+        'Validated prototype racks and packaging systems through dimensional, fit, and functional reviews; identified dunnage, flipper, and product-loading issues and drove supplier corrective actions',
+        'Developed packaging specifications, inspection standards, and work instructions to standardize packaging quality and support mass production',
+        'Designed custom fixtures and protective components using CATIA and 3D printing to improve product protection and operator efficiency',
       ],
     },
     {
       role: 'R&D Intern',
       company: 'Shanghai Chest Medical Devices Co.',
-      location: 'Shanghai',
+      location: 'Shanghai, China',
       period: 'Jul 2024 - Aug 2024',
       responsibilities: [
-        'Created 2D/3D CAD drawings for medical devices and packaging',
-        'Analyzed 150+ test samples using Python to identify quality trends, reducing data processing time by 40%',
-        'Applied root cause analysis to resolve manufacturing issues, reducing retesting by 25%',
+        'Created 2D and 3D CAD drawings of medical devices and generated 2D drawings for inner and outer packaging, ensuring design accuracy for downstream testing and analysis',
+        'Performed bursting strength, hydrostatic head, and dry state fiber shedding tests on medical devices, collecting structured datasets for quality evaluation',
+        'Analyzed over 150 test samples using Python (Pandas, NumPy) and Excel, applying statistical methods and visualization to identify key quality trends and reducing data processing time by 40% through automation',
+        'Collaborated with R&D, QA, and Manufacturing teams to investigate test inconsistencies; applied root cause analysis and data-driven insights to resolve 2 major issues, reducing retesting frequency by 25% and enabling faster design iterations',
       ],
     },
   ];

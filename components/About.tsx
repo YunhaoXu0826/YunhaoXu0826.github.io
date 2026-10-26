@@ -9,15 +9,16 @@ export default function About() {
       
       <div className="prose max-w-none">
         <p className="text-base md:text-lg text-gray-700 mb-4 md:mb-6 leading-relaxed">
-          I am a Materials Science and Engineering graduate student at Carnegie Mellon University 
-          with a strong passion for polymer science, computational materials research, and data-driven 
-          innovation. My research focuses on developing machine learning models to predict mechanical 
-          properties of advanced materials and investigating self-healing hybrid materials.
+          I am a Process / Packaging Engineer at Fuyao Glass America in Dayton, OH, with an M.S. in 
+          Materials Science from Carnegie Mellon University. I work on automotive glass manufacturing 
+          processes and packaging development, from DOE-based process validation and production data 
+          analysis to CATIA-based packaging design for Tesla and BMW programs.
         </p>
         
         <p className="text-base md:text-lg text-gray-700 mb-6 md:mb-8 leading-relaxed">
-          With hands-on experience in polymer synthesis, characterization, and computational analysis, 
-          I bridge the gap between theoretical research and practical applications in materials engineering.
+          Backed by a research background in polymers, materials characterization, and machine learning, 
+          I combine hands-on shop-floor engineering with data-driven problem solving to improve 
+          throughput, product protection, and quality.
         </p>
 
         <div className="space-y-4 md:space-y-6">
@@ -41,7 +42,7 @@ export default function About() {
             <p className="text-gray-700 mb-2">GPA: 3.9/4.0</p>
             <p className="text-sm text-gray-600">
               <span className="font-medium">Core Courses:</span> Structure and Characterization 
-              of Materials, Thermodynamics, Advanced Polymer Science
+              of Materials, Thermodynamics of Materials, Advanced Polymer Science, 3D Printing
             </p>
           </div>
 
@@ -59,8 +60,8 @@ export default function About() {
             </p>
             <p className="text-gray-700 mb-2">GPA: 3.9/5.0</p>
             <p className="text-sm text-gray-600">
-              <span className="font-medium">Core Courses:</span> Polymer Physics, 
-              Polymer Chemistry, Polymer Processing
+              <span className="font-medium">Core Courses:</span> Fundamentals of Materials Science, 
+              Polymer Physics, Polymer Chemistry, Polymer Processing Techniques
             </p>
           </div>
         </div>

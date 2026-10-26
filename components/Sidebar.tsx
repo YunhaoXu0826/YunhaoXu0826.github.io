@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Linkedin, MapPin, Menu, X } from 'lucide-react';
+import { Mail, Linkedin, GraduationCap, MapPin, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -16,6 +16,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
     { id: 'about', label: 'About' },
     { id: 'experience', label: 'Experience' },
     { id: 'research', label: 'Research & Projects' },
+    { id: 'publications', label: 'Publications' },
     { id: 'skills', label: 'Skills' },
   ];
 
@@ -73,6 +74,9 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
             <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
               Yunhao (Henry) Xu
             </h1>
+            <p className="text-sm md:text-base font-medium text-red-700 mb-1">
+              Process / Packaging Engineer
+            </p>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed px-2">
               M.S. in Materials Science @ Carnegie Mellon University
             </p>
@@ -81,13 +85,13 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
           {/* Location */}
           <div className="flex items-center justify-center text-xs md:text-sm text-gray-600 mb-6">
             <MapPin size={16} className="mr-2" />
-            <span>Pittsburgh, PA</span>
+            <span>Dayton, OH</span>
           </div>
 
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-8 pb-8 border-b border-gray-300">
             <a
-              href="mailto:yunhaox@andrew.cmu.edu"
+              href="mailto:xyh18301778938@gmail.com"
               className="p-2 text-gray-700 hover:text-red-700 hover:bg-gray-200 rounded-full transition-colors"
               aria-label="Email"
             >
@@ -101,6 +105,15 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
+            </a>
+            <a
+              href="https://scholar.google.com/citations?user=BzX3ZUsAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-gray-700 hover:text-red-700 hover:bg-gray-200 rounded-full transition-colors"
+              aria-label="Google Scholar"
+            >
+              <GraduationCap size={20} />
             </a>
           </div>
 
@@ -130,12 +143,20 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
           {/* Resume and Technical Showcase */}
           <div className="mt-6 space-y-3">
             <a
-              href="/resume.pdf"
+              href="/Yunhao_Henry_Xu_Resume_Process.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center px-4 py-3 bg-red-700 text-white font-semibold rounded-md hover:bg-red-800 transition-colors shadow-md text-sm md:text-base"
             >
-              📄 View Resume
+              📄 Resume (Process)
+            </a>
+            <a
+              href="/Yunhao_Henry_Xu_Resume_Packaging.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center px-4 py-3 bg-red-700 text-white font-semibold rounded-md hover:bg-red-800 transition-colors shadow-md text-sm md:text-base"
+            >
+              📄 Resume (Packaging)
             </a>
             <a
               href="/slides.pdf"
@@ -149,7 +170,7 @@ export default function Sidebar({ activeSection, onNavigate }: SidebarProps) {
 
           {/* Contact Info */}
           <div className="mt-8 pt-8 border-t border-gray-300 text-xs text-gray-600">
-            <p className="mb-1">yunhaox [at] andrew [dot] cmu [dot] edu</p>
+            <p className="mb-1">xyh18301778938@gmail.com</p>
             <p>412-450-2179</p>
           </div>
         </div>

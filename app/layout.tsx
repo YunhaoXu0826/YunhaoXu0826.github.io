@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Yunhao (Henry) Xu | Materials Science Researcher & Engineer",
-  description: "Portfolio of Yunhao (Henry) Xu - M.S. in Materials Science at Carnegie Mellon University",
+  title: "Yunhao (Henry) Xu | Process / Packaging Engineer",
+  description: "Portfolio of Yunhao (Henry) Xu - Process / Packaging Engineer at Fuyao Glass America; M.S. in Materials Science, Carnegie Mellon University",
 };
 
 export default function RootLayout({
